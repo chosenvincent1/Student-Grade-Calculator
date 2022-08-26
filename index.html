@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Grade Calculator</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="datas">
+                <div class="title">
+                    <h1>Student Grade Calc</h1>
+                </div>
+    
+                <div class="gradeInput">
+                    <input type="text" id="math" placeholder="Mathematics">
+                    <br>
+                    <input type="text" id="phy" placeholder="physics">
+                    <br>
+                    <input type="text" id="comp" placeholder="computer">
+                    <br>
+                    <input type="text" id="prog" placeholder="programming">
+                    <br>
+                    <input type="button" id="perc" value="show result" onclick="calc()">
+                </div>
+            </div>
+            <div class="results">
+                <p id="showData"> </p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
